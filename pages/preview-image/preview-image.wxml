@@ -1,0 +1,4 @@
+<!--图片描述-->
+<view wx:if="{{item.pictures}}" wx:key="key" class="list-dImg">
+  <image bindtap="imgYu" data-list="{{item.pictures}}" data-src="{{dImg}}" wx:for="{{item.pictures}}" wx:for-item="dImg" wx:key="key" src="{{dImg}}"></image>
+</view>

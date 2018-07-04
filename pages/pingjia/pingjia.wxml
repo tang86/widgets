@@ -1,0 +1,5 @@
+<view class="right">
+ <view bindtap="starTap" data-index="{{index}}"  class="star" wx:for="{{userStars}}" wx:key="index">
+    <image src="{{item}}"></image>
+  </view>
+</view>

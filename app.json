@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pingjia/pingjia",
+    "pages/modal/modal",
+    "pages/modal/modal-002",
+    "pages/radio/radio",
+    "pages/checkoutbox/checkbox",
+    "pages/navigator/navigator",
+    "pages/my-toast/my-toast",
+    "pages/picker/picker",
+    "pages/preview-image/preview-image",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

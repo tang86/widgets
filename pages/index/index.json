@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "dialog": "/components/Dialog/dialog",
+    "picker": "/components/Picker/picker"
+  }
+}

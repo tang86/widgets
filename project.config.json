@@ -1,0 +1,85 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.94",
+	"appid": "wx2e68cc2040709c54",
+	"projectname": "%2Fvar%2Fwww%2Fmini-program%2Fwidgets",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 7,
+			"list": [
+				{
+					"id": -1,
+					"name": "评价",
+					"pathName": "pages/pingjia/pingjia",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "弹出框（modal）",
+					"pathName": "pages/modal/modal",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "弹出框-002-（自定义）",
+					"pathName": "pages/modal/modal-002",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "单选按钮",
+					"pathName": "pages/radio/radio",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "导航",
+					"pathName": "pages/navigator/navigator",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "自定义toast弹窗",
+					"pathName": "pages/my-toast/my-toast",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "选择器",
+					"pathName": "pages/picker/picker",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "图片预览",
+					"pathName": "pages/preview-image/preview-image"
+				}
+			]
+		}
+	}
+}

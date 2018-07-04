@@ -1,0 +1,6 @@
+<view class="form-item-bd">
+  <picker bindchange="changeProvince" mode="selector" range="{{provinceName}}" value="{{provinceSelIndex}}">
+    <view class="input {{!provinceName[provinceSelIndex] ? 'input-placeholder' : ''}}">{{provinceName[provinceSelIndex] || '请选择所在省'}}</view>
+    <input type="text" name="province" value="{{provinceName[provinceSelIndex]}}" class="hidden" />
+  </picker>
+</view>
