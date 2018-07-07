@@ -11,21 +11,11 @@
     <text class="user-motto">{{motto}}</text>
   </view>
 
-    <dialog id='dialog' 
-      title='我是标题' 
-      content='恭喜你，学会了小程序组件' 
-      cancelText='知道了' 
-      confirm='谢谢你'
-      bind:cancelEvent="_cancelEvent"  
-      bind:confirmEvent="_confirmEvent">
-    </dialog>
-    
-    <button type="primary" bindtap="showDialog"> ClickMe! </button>
+  <dialog id='dialog' title='我是标题' content='恭喜你，学会了小程序组件' cancelText='知道了' confirm='谢谢你' bind:cancelEvent="_cancelEvent" bind:confirmEvent="_confirmEvent">
+  </dialog>
 
+  <button type="primary" bindtap="showDialog"> ClickMe! </button>
 
-<picker id='picker'></picker>
-
-    <button type="primary" bindtap="showPicker"> Show Picker! </button>
-
-
+  <picker id='picker'></picker>
+  <button type="primary" bindtap="showPicker"> Show Picker! </button>
 </view>

@@ -26,4 +26,9 @@
 .toast-out .toast-in .toast-txt {
   font-size: 36rpx;
   color: #ffda13;
+  padding-top: 35rpx; 
+}
+
+.toast-txt text {
+  display: block;
 }

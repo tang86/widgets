@@ -7,24 +7,24 @@ Page({
   data: {
   
   },
-  toastShow: function (str, icon) {
+  toastShow: function (str) {
     var _this = this;
     _this.setData({
       isShow: true,
       txt: str,
-      iconClass: icon
+    
     });
     setTimeout(function () {    //toast消失
       _this.setData({
         isShow: false
       });
-    }, 3000);
+    }, 300000);
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.toastShow("登录名不能为空\r\n阅读文章+1积分", "icon-suo");
+    this.toastShow("阅读文章+1积分");
   },
 
   /**
